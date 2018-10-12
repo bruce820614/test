@@ -1,0 +1,7 @@
+Q1-2
+1.如果Precision和Recall今天一樣重要時，F1-Score是一種調和平均，可以綜合考慮解決矛盾。
+2.因為binary function無法去做微分。
+3. Bias就是所謂的Underfitting，因為參數過少所以導致訓練資料集有的預測誤差；Variance就是所謂的Overfitting，因為參數過多導致過度擬合訓練資料集的資料。
+4.由於決策樹容易有Overfitting的問題，Prunnig就是為了解決這個問題，因此分支更少的樹雖然Bias略微高一點，但其產生的Variance更低，可解釋性更強。但隨機森林使用bootstrapped且隨機選取features，因此樹之間的相關性比較低，每棵樹我們希望Bias低有最佳的預測效果。
+5.在種類不多時對有順序性或無順序性的類別資料做處理。
+6.Regularization：限制權重大小、Early Stopping、Drop-out、Denoising Autoencoder。
